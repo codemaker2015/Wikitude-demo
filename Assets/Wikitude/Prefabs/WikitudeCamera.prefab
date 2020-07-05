@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &124326
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 458674}
+  - component: {fileID: 11456902}
+  - component: {fileID: 2057576}
+  - component: {fileID: 12449892}
+  - component: {fileID: 9205074}
+  - component: {fileID: 8195018}
+  m_Layer: 0
+  m_Name: WikitudeCamera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &458674
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124326}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 35}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11456902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -37933721, guid: 74f59eb22abf947599d3aecf24b954b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnSDKInitialized:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.WikitudeCamera+OnSDKInitializedEvent, WikitudeUnityPlugin,
+      Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+  _WikitudeLicenseKey: lD6Jrai85NDD7CW5PE/1OzbfmFd7uBbEn+7C84q/tGRvT5DMjnN4c2rdW6Ie6H747uGM5Ruzu72gysxRWCAIPLWoP0tdqEmZJXvqPUXbkCdKJtBU3sgl8cDkWKTnslv5COgK5/MYMS+kSBp04ISIdVldS5TGnTfDHNOjPZl++pZTYWx0ZWRfX35Ck8HiFnr8bSaPkQhv5QeP/tv1fntTG+OaJmwHb9KAN0HIoIjQBQbYVjDj5D/0ehXJmo/ljQLWeMFo/fnVgAwUl86K1aKQwD+D8RU1yVEbGHMtDXE6q+quPiiLy5IUjmDiAgXMAwZN53QbMzHANvWhN+UleNtbwnVjhY6pcxzElrieaHQl8HJhNoO0oxXQYXidMmuhYtMVxW/BSY8fVhzfww23lcq8jBjupC4JoNUEfeqSmNdO3l5DXE84259NuiTlZP/SeJXiNUtSr2gRB+AUOe6PLdvpinGqplWZZ8/rHVGAAV8muqvYQHjxUq4vbK6xy4DlC7DcJEG/U90v9JWmkq8VNlrzdYG/CFLW03CvEJTY8bBtNQRpJ7jwY/5lYQs3v2ddo1P66kQK9PE6M5GGSzW4DSHAt0b20yGjpp73WgXRUe8qX0BNPolwp74oWVRdhTQR/c7L7LND3w0Wpc1AEZscXVGoSVb0YKyhTLf3KTChPdSj6r1+3S/ChKXfoQUdZbctKojLrJ55Il51fLFvNG0UCSuEW6jF1K93JTDTIiNSRnUB6HSWQjsUHmgArdGmrHj45WjUh1MgzpT1MjxnhEeKFEB7nnWU6EOq/ZAI7V5QlzOuEYZQSvzgM5qpSt1M2fHmKD90F1B0A3/5hCneJD0/UD2zORcA0hKx3wdCaJLY8NnyWxY=
+  _enableCameraRendering: 1
+  _staticCamera: 0
+  _ignoreTrackableScale: 0
+  ActiveOverride: {fileID: 0}
+  OnCameraError:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.WikitudeCamera+OnCameraErrorEvent, WikitudeUnityPlugin, Version=9.1.0.0,
+      Culture=neutral, PublicKeyToken=null
+  OnCameraOpened:
+    m_PersistentCalls:
+      m_Calls: []
+    m_TypeName: Wikitude.WikitudeCamera+OnCameraOpenedEvent, WikitudeUnityPlugin,
+      Version=9.1.0.0, Culture=neutral, PublicKeyToken=null
+  _desiredDeviceResolution: 0
+  _desiredDeviceFramerate: 0
+  _enableCamera2: 1
+  _camera2SupportLevel: 1
+  _enableLivePreview: 1
+  _livePreviewMode: 1
+  _staticImage: {fileID: 0}
+  _webCamName: 
+  _remoteCameraPosition: 0
+  _cameraToHorizonAngle: 45
+--- !u!20 &2057576
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124326}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 3
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.05
+  far clip plane: 5000
+  field of view: 34.2562
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294966271
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!124 &12449892
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124326}
+  m_Enabled: 1
+--- !u!92 &9205074
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124326}
+  m_Enabled: 1
+--- !u!81 &8195018
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 124326}
+  m_Enabled: 1
